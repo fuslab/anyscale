@@ -35,15 +35,15 @@
 
 * 研发计划
 
-![](https://github.com/jikelab/jdp/img/jdp-3-0-0-0-develop-plan.png)
+![](https://github.com/jikelab/jdp/raw/master/img/jdp-3-0-0-0-develop-plan.png)
 
 * 测试计划
 
-![](https://github.com/jikelab/jdp/img/jdp-3-0-0-0-testing.png)
+![](https://github.com/jikelab/jdp/raw/master/img/jdp-3-0-0-0-testing.png)
 
 * 文档计划
 
-![](https://github.com/jikelab/jdp/img/jdp-3-0-0-0-doc.png)
+![](https://github.com/jikelab/jdp/raw/master/img/jdp-3-0-0-0-doc.png)
 
 地址：https://tech.jikelab.com/labs-docs/zh-cn/
 
@@ -51,11 +51,11 @@
 
 * 研发计划
 
-![](https://github.com/jikelab/jdp/img/jdp-3-1-0-0-develop-plan.png)
+![](https://github.com/jikelab/jdp/raw/master/img/jdp-3-1-0-0-develop-plan.png)
 
 * 测试计划
 
-![](https://github.com/jikelab/jdp/img/jdp-3-1-0-0-testing.png)
+![](https://github.com/jikelab/jdp/raw/master/img/jdp-3-1-0-0-testing.png)
 
 
 
