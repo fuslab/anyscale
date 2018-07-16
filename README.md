@@ -47,6 +47,18 @@
 
 地址：https://tech.jikelab.com/labs-docs/zh-cn/
 
+* 项目列表
+
+| 名称 | 说明 | 地址 |  状态 | 备注 | 
+| :--- | :----: | :----: | :----: | :----: |
+| jdp-package | JDP-for-ClickHouse Ecosystem Package Management Tools | [Github](https://github.com/jikelab/jdp-package) | ok |  :seedling: |
+| jdp | JDP for roadmap | [Github](https://github.com/jikelab/jdp) | ok |  :seedling: |
+| geekbox | geekbox is website | [Github](https://github.com/jikelab/geekbox) | ok |  :seedling: |
+| labs-docs | JDP-for-ClickHouse Ecosystem Docs | [Github](https://github.com/jikelab/labs-docs) | ok |  :seedling: |
+| jdp-select | JDP-for-ClickHouse Ecosystem Package Core Tools | [Github](https://github.com/jikelab/jdp-select) | ok |  :seedling: |
+| jdp-ambari-mpack | JDP-for-ClickHouse Ecosystem Management Platform | [Github](https://github.com/jikelab/jdp-ambari-mpack) | ok |  :seedling: |
+| jdp-ambari | jdp for ambari | [Github](https://github.com/jikelab/jdp-ambari) | ok |  :seedling: |
+
 ## JDP Development plan for 3.1.0.0 
 
 * 研发计划
@@ -57,5 +69,35 @@
 
 ![](https://github.com/jikelab/jdp/raw/master/img/jdp-3-1-0-0-testing.png)
 
+* 项目列表
 
+| 名称 | 说明 | 地址 |  状态 | 备注 | 
+| :--- | :----: | :----: | :----: | :----: |
+| jdp-package | JDP-for-ClickHouse Ecosystem Package Management Tools | [Github](https://github.com/jikelab/jdp-package) | ok |  :seedling: |
+| jdp | JDP for roadmap | [Github](https://github.com/jikelab/jdp) | ok |  :seedling: |
+| geekbox | geekbox is website | [Github](https://github.com/jikelab/geekbox) | ok |  :seedling: |
+| labs-docs | JDP-for-ClickHouse Ecosystem Docs | [Github](https://github.com/jikelab/labs-docs) | ok |  :seedling: |
+| jdp-select | JDP-for-ClickHouse Ecosystem Package Core Tools | [Github](https://github.com/jikelab/jdp-select) | ok |  :seedling: |
+| jdp-ambari-mpack | JDP-for-ClickHouse Ecosystem Management Platform | [Github](https://github.com/jikelab/jdp-ambari-mpack) | ok |  :seedling: |
+| jdp-ambari | jdp for ambari | [Github](https://github.com/jikelab/jdp-ambari) | ok |  :seedling: |
 
+注：jdp-ambari-mpack 和 jdp-ambari 项目在`3.1.0.0`中会融合，未来只会存在一个项目。
+
+* 开发约束
+
+项目列表，涉及的相关项目版本，全都统一为`branch-3.1.0.0`，ambari和labs-docs除外。
+
+需要开启统称为`branch-3.1.0.0`分支以此为基础进行开发。最终release版本之前，可通`branch-3.1.0.0`分支发布带rc后缀的版本，比如rc1,rc2等。
+
+新特性开发，可开启带develop关键字的分支，每个roadmap特性都会以pr的形式提到`branch-3.1.0.0`中，最终版本合并到master，并且打进行tag发布。
+
+bugfix开发，相关问题修复，需开启带有bugfix/xxx关键字的分支，测试通过以pr的形式提给`branch-3.1.0.0`。
+
+commit信息，开发新特性和问题修复，严格以全英文方式提交信息，尽量让每一个pr都能清楚描述解决的问题或新特性。
+
+文档编写
+
+> 1. 新特性的开发，需在文档项目中，编写详细的设计文档，设计文档评审通过，开始实现功能。
+> 2. 每个新特性开发合并`branch-3.1.0.0`，需要编写相关使用文档，每次提交CI持续集成会自动部署为一个静态网站，只需专注编写文档。整个文档严格遵守markdown语法规范，文档内容描述需通俗易懂，易于理解。
+
+。。。。
