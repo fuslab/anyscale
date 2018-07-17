@@ -85,7 +85,8 @@
 
 * 开发约束
 
-项目列表，涉及的相关项目版本，全都统一为`branch-3.1.0.0`，ambari和labs-docs除外。
+项目列表，涉及的相关项目版本，全都统一为`branch-3.1.0.0`，ambari、jdp-package和labs-docs除外，拥有相关prefix，suffix需保持一致。
+比如：jdp-3.1.0.0, ambari-2.7.0.0-3.1.0.0需具备版本一致性。
 
 需要开启统称为`branch-3.1.0.0`分支以此为基础进行开发。最终release版本之前，可通`branch-3.1.0.0`分支发布带rc后缀的版本，比如rc1,rc2等。
 
