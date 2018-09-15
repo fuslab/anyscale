@@ -53,7 +53,6 @@
 | :--- | :----: | :----: | :----: | :----: |
 | jdp-package | JDP-for-ClickHouse Ecosystem Package Management Tools | [Github](https://github.com/jikelab/jdp-package) | ok |  :seedling: |
 | jdp | JDP for roadmap | [Github](https://github.com/jikelab/jdp) | ok |  :seedling: |
-| geekbox | geekbox is website | [Github](https://github.com/jikelab/geekbox) | ok |  :seedling: |
 | labs-docs | JDP-for-ClickHouse Ecosystem Docs | [Github](https://github.com/jikelab/labs-docs) | ok |  :seedling: |
 | jdp-select | JDP-for-ClickHouse Ecosystem Package Core Tools | [Github](https://github.com/jikelab/jdp-select) | ok |  :seedling: |
 | jdp-ambari-mpack | JDP-for-ClickHouse Ecosystem Management Platform | [Github](https://github.com/jikelab/jdp-ambari-mpack) | ok |  :seedling: |
