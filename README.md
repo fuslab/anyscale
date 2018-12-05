@@ -13,7 +13,7 @@
     + 提供核心的服务管理与配置中心功能，保障集群的稳定可靠。
     + 简单高效的管理大规模分布式系统，仅需专注业务应用。
 
-![JDataFlow](https://tech.jikelab.com/labs-docs/zh-cn/docs/intro/img/JDataFlow-Pratfrom.png)
+![JDataFlow](http://www.fusionlab.cn/zh-cn/docs/intro/img/JDataFlow-Pratfrom.png)
 
 ## 设计原则
 
@@ -35,50 +35,46 @@
 
 * 研发计划
 
-![](https://github.com/jikelab/jdp/raw/master/img/jdp-3-0-0-0-develop-plan.png)
+![](http://github.com/fusionlabcn/jdp/raw/master/img/jdp-3-0-0-0-develop-plan.png)
 
 * 测试计划
 
-![](https://github.com/jikelab/jdp/raw/master/img/jdp-3-0-0-0-testing.png)
+![](http://github.com/fusionlabcn/jdp/raw/master/img/jdp-3-0-0-0-testing.png)
 
 * 文档计划
 
-![](https://github.com/jikelab/jdp/raw/master/img/jdp-3-0-0-0-doc.png)
+![](http://github.com/fusionlabcn/jdp/raw/master/img/jdp-3-0-0-0-doc.png)
 
-地址：https://tech.jikelab.com/labs-docs/zh-cn/
+地址：http://www.fusionlab.cn
 
 * 项目列表
 
 | 名称 | 说明 | 地址 |  状态 | 备注 | 
 | :--- | :----: | :----: | :----: | :----: |
-| jdp-package | JDP-for-ClickHouse Ecosystem Package Management Tools | [Github](https://github.com/jikelab/jdp-package) | ok |  :seedling: |
-| jdp | JDP for roadmap | [Github](https://github.com/jikelab/jdp) | ok |  :seedling: |
-| labs-docs | JDP-for-ClickHouse Ecosystem Docs | [Github](https://github.com/jikelab/labs-docs) | ok |  :seedling: |
-| jdp-select | JDP-for-ClickHouse Ecosystem Package Core Tools | [Github](https://github.com/jikelab/jdp-select) | ok |  :seedling: |
-| jdp-ambari-mpack | JDP-for-ClickHouse Ecosystem Management Platform | [Github](https://github.com/jikelab/jdp-ambari-mpack) | ok |  :seedling: |
-| jdp-ambari | jdp for ambari | [Github](https://github.com/jikelab/jdp-ambari) | ok |  :seedling: |
+| jdp-package | JDP-for-ClickHouse Ecosystem Package Management Tools | [Github](https://github.com/fusionlabcn/jdp-package) | ok |  :seedling: |
+| jdp | JDP for roadmap | [Github](https://github.com/fusionlabcn/jdp) | ok |  :seedling: |
+| jdp-select | JDP-for-ClickHouse Ecosystem Package Core Tools | [Github](https://github.com/fusionlabcn/jdp-select) | ok |  :seedling: |
+| jdp-ambari-mpack | JDP-for-ClickHouse Ecosystem Management Platform | [Github](https://github.com/fusionlabcn/jdp-ambari-mpack) | ok |  :seedling: |
+| jdp-ambari | jdp for ambari | [Github](https://github.com/fusionlabcn/jdp-ambari) | ok |  :seedling: |
 
 ## JDP Development plan for 3.1.0.0 
 
 * 研发计划
 
-![](https://github.com/jikelab/jdp/raw/master/img/jdp-3-1-0-0-develop-plan.png)
+![](https://github.com/fusionlabcn/jdp/raw/master/img/jdp-3-1-0-0-develop-plan.png)
 
 * 测试计划
 
-![](https://github.com/jikelab/jdp/raw/master/img/jdp-3-1-0-0-testing.png)
+![](https://github.com/fusionlabcn/jdp/raw/master/img/jdp-3-1-0-0-testing.png)
 
 * 项目列表
 
 | 名称 | 说明 | 地址 |  状态 | 备注 | 
 | :--- | :----: | :----: | :----: | :----: |
-| jdp-package | JDP-for-ClickHouse Ecosystem Package Management Tools | [Github](https://github.com/jikelab/jdp-package) | ok |  :seedling: |
-| jdp | JDP for roadmap | [Github](https://github.com/jikelab/jdp) | ok |  :seedling: |
-| geekbox | geekbox is website | [Github](https://github.com/jikelab/geekbox) | ok |  :seedling: |
-| labs-docs | JDP-for-ClickHouse Ecosystem Docs | [Github](https://github.com/jikelab/labs-docs) | ok |  :seedling: |
-| jdp-select | JDP-for-ClickHouse Ecosystem Package Core Tools | [Github](https://github.com/jikelab/jdp-select) | ok |  :seedling: |
-| jdp-ambari-mpack | JDP-for-ClickHouse Ecosystem Management Platform | [Github](https://github.com/jikelab/jdp-ambari-mpack) | ok |  :seedling: |
-| jdp-ambari | jdp for ambari | [Github](https://github.com/jikelab/jdp-ambari) | ok |  :seedling: |
+| jdp-package | JDP-for-ClickHouse Ecosystem Package Management Tools | [Github](https://github.com/fusionlabcn/jdp-package) | ok |  :seedling: |
+| jdp | JDP for roadmap | [Github](https://github.com/fusionlabcn/jdp) | ok |  :seedling: |
+| jdp-select | JDP-for-ClickHouse Ecosystem Package Core Tools | [Github](https://github.com/fusionlabcn/jdp-select) | ok |  :seedling: |
+| jdp-ambari | JDP for Ambari | [Github](https://github.com/fusionlabcn/ambari) | ok |  :seedling: |
 
 注：jdp-ambari-mpack 和 jdp-ambari 项目在`3.1.0.0`中会融合，未来只会存在一个项目。
 
