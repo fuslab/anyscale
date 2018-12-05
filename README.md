@@ -35,15 +35,11 @@
 
 * 研发计划
 
-![](http://github.com/fusionlabcn/jdp/raw/master/img/jdp-3-0-0-0-develop-plan.png)
+![](https://github.com/fusionlabcn/jdp/raw/master/img/jdp-3-0-0-0-develop-plan.png)
 
 * 测试计划
 
-![](http://github.com/fusionlabcn/jdp/raw/master/img/jdp-3-0-0-0-testing.png)
-
-* 文档计划
-
-![](http://github.com/fusionlabcn/jdp/raw/master/img/jdp-3-0-0-0-doc.png)
+![](https://github.com/fusionlabcn/jdp/raw/master/img/jdp-3-0-0-0-testing.png)
 
 地址：http://www.fusionlab.cn
 
