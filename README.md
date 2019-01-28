@@ -47,11 +47,11 @@
 
 | 名称 | 说明 | 地址 |  状态 | 备注 | 
 | :--- | :----: | :----: | :----: | :----: |
-| jdp-package | JDP-for-ClickHouse Ecosystem Package Management Tools | [Github](https://github.com/fusionlabcn/jdp-package) | ok |  :seedling: |
+| jdp-package | JDP Ecosystem Package Management Tools | [Github](https://github.com/fusionlabcn/jdp-package) | ok |  :seedling: |
 | jdp | JDP for roadmap | [Github](https://github.com/fusionlabcn/jdp) | ok |  :seedling: |
-| jdp-select | JDP-for-ClickHouse Ecosystem Package Core Tools | [Github](https://github.com/fusionlabcn/jdp-select) | ok |  :seedling: |
-| jdp-ambari-mpack | JDP-for-ClickHouse Ecosystem Management Platform | [Github](https://github.com/fusionlabcn/jdp-ambari-mpack) | ok |  :seedling: |
-| jdp-ambari | jdp for ambari | [Github](https://github.com/fusionlabcn/jdp-ambari) | ok |  :seedling: |
+| jdp-select | JDP Ecosystem Package Core Tools | [Github](https://github.com/fusionlabcn/jdp-select) | ok |  :seedling: |
+| jdp-ambari-mpack | JDP Ecosystem Management Platform | [Github](https://github.com/fusionlabcn/jdp-ambari-mpack) | ok |  :seedling: |
+| Ambari | JDP Stack in Ambari | [Github](https://github.com/fusionlabcn/ambari) | ok |  :seedling: |
 
 ## JDP Development plan for 3.1.0.0 
 
@@ -67,23 +67,26 @@
 
 | 名称 | 说明 | 地址 |  状态 | 备注 | 
 | :--- | :----: | :----: | :----: | :----: |
-| jdp-package | JDP-for-ClickHouse Ecosystem Package Management Tools | [Github](https://github.com/fusionlabcn/jdp-package) | ok |  :seedling: |
-| jdp | JDP for roadmap | [Github](https://github.com/fusionlabcn/jdp) | ok |  :seedling: |
-| jdp-select | JDP-for-ClickHouse Ecosystem Package Core Tools | [Github](https://github.com/fusionlabcn/jdp-select) | ok |  :seedling: |
-| jdp-ambari | JDP for Ambari | [Github](https://github.com/fusionlabcn/ambari) | ok |  :seedling: |
+| jdp-package | JDP Ecosystem Package Management Tools | [Github](https://github.com/fusionlabcn/jdp-package) | ok |  :seedling: |
+| jdp-select | JDP Ecosystem Package Core Tools | [Github](https://github.com/fusionlabcn/jdp-select) | ok |  :seedling: |
+| Ambari | JDP Stack in Ambari | [Github](https://github.com/fusionlabcn/ambari) | ok |  :seedling: |
 
 注：jdp-ambari-mpack 和 jdp-ambari 项目在`3.1.0.0`中会融合，未来只会存在一个项目。
 
 * 开发约束
 
-项目列表，涉及的相关项目版本，全都统一为`branch-3.1.0.0`，ambari、jdp-package和labs-docs除外，拥有相关prefix，suffix需保持一致。
-比如：jdp-3.1.0.0, ambari-2.7.0.0-3.1.0.0需具备版本一致性。
+项目列表，涉及的相关项目版本，全都统一为`branch-3.1.0.0`，jdp-package和labs-docs除外，拥有相关prefix，suffix需保持一致。
+比如：jdp-3.1.0.0需具备版本一致性。
 
 需要开启统称为`branch-3.1.0.0`分支以此为基础进行开发。最终release版本之前，可通`branch-3.1.0.0`分支发布带rc后缀的版本，比如rc1,rc2等。
 
 新特性开发，可开启带develop关键字的分支，每个roadmap特性都会以pr的形式提到`branch-3.1.0.0`中，最终版本合并到master，并且打进行tag发布。
 
-bugfix开发，相关问题修复，需开启带有bugfix/xxx关键字的分支，测试通过以pr的形式提给`branch-3.1.0.0`。
+- {project_name}-number(unique)-feature-{describe}
+
+bugfix开发，相关问题修复，需开启带有bugfix-{describe}关键字的分支，测试通过以pr的形式提给`branch-3.1.0.0`。
+
+- {project_name}-number(unique)-bugfix-{describe}
 
 commit信息，开发新特性和问题修复，严格以全英文方式提交信息，尽量让每一个pr都能清楚描述解决的问题或新特性。
 
