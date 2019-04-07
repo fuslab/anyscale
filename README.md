@@ -96,7 +96,7 @@
 | Name | explain | address |  status | remark | 
 | :--- | :----: | :----: | :----: | :----: |
 | jdp-package | JDP Ecosystem Package Management Tools | [Github](https://github.com/fuslab/jdp-package) | release |  :seedling: |
-| jdp-select | JDP Ecosystem Package Core Tools | [Github](https://github.com/fuslab/jdp-select) | ok |  :seedling: |
+| jdp-select | JDP Ecosystem Package Core Tools | [Github](https://github.com/fuslab/jdp-select) | release |  :seedling: |
 | Ambari | JDP Stack in Ambari | [Github](https://github.com/fuslab/ambari) | release |  :seedling: |
 | FusionDB | JDP Core FusionDB | [Github](https://github.com/FusionDB/fusiondb) | incubator |  :seedling: |
 
