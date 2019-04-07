@@ -100,7 +100,7 @@
 | Ambari | JDP Stack in Ambari | [Github](https://github.com/fuslab/ambari) | release |  :seedling: |
 | FusionDB | JDP Core FusionDB | [Github](https://github.com/FusionDB/fusiondb) | incubator |  :seedling: |
 
-Note: JDP 3.1.1.0 version, hatching core components ` FusionDB ` and ` CoreAI `，details access [fusionlab] (http://www.fusionlab.cn)
+Note: JDP 3.1.1.0 version, hatching core components ` FusionDB ` and ` CoreAI `，details access [fusionlab](http://www.fusionlab.cn)
 
 ## 开发约束
 
