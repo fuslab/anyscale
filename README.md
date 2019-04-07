@@ -6,8 +6,8 @@
 - 开发工具：`Ambari`，基于Ambari源码扩展，JDP更好的融合Ambari。
 - 基础构成：`JDP`核心基于高性能的分布式关系型数据库构建，支撑万亿数据秒级响应能力。
 - 核心功能：`JDP`核心Core Data & Core AI：
-    + Core Data提供高度可视化的流数据分析，Streaming Analytics to Visualization。
-    + Core AI提供分布式系统上的AI能力，Smart Application。
+    + Core Data 提供高度可视化的流数据分析，Streaming Analytics to Visualization。
+    + Core AI 提供分布式系统上的AI能力，Smart Application。
 
 - 基础运维：开箱即用，可视化运维管理系统`Ambari Manager`：
     + 提供核心的服务管理与配置中心功能，保障集群的稳定可靠。
@@ -47,11 +47,11 @@
 
 | 名称 | 说明 | 地址 |  状态 | 备注 | 
 | :--- | :----: | :----: | :----: | :----: |
-| jdp-package | JDP Ecosystem Package Management Tools | [Github](https://github.com/fusionlabcn/jdp-package) | ok |  :seedling: |
-| jdp | JDP for roadmap | [Github](https://github.com/fusionlabcn/jdp) | ok |  :seedling: |
-| jdp-select | JDP Ecosystem Package Core Tools | [Github](https://github.com/fusionlabcn/jdp-select) | ok |  :seedling: |
-| jdp-ambari-mpack | JDP Ecosystem Management Platform | [Github](https://github.com/fusionlabcn/jdp-ambari-mpack) | ok |  :seedling: |
-| Ambari | JDP Stack in Ambari | [Github](https://github.com/fusionlabcn/ambari) | ok |  :seedling: |
+| jdp-package | JDP Ecosystem Package Management Tools | [Github](https://github.com/fuslab/jdp-package) | ok |  :seedling: |
+| jdp | JDP for roadmap | [Github](https://github.com/fuslab/jdp) | ok |  :seedling: |
+| jdp-select | JDP Ecosystem Package Core Tools | [Github](https://github.com/fuslab/jdp-select) | ok |  :seedling: |
+| jdp-ambari-mpack | JDP Ecosystem Management Platform | [Github](https://github.com/fuslab/jdp-ambari-mpack) | ok |  :seedling: |
+| Ambari | JDP Stack in Ambari | [Github](https://github.com/fuslab/ambari) | ok |  :seedling: |
 
 ## JDP Development plan for 3.1.0.0 
 
