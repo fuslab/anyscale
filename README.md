@@ -67,15 +67,44 @@
 
 | 名称 | 说明 | 地址 |  状态 | 备注 | 
 | :--- | :----: | :----: | :----: | :----: |
-| jdp-package | JDP Ecosystem Package Management Tools | [Github](https://github.com/fusionlabcn/jdp-package) | ok |  :seedling: |
-| jdp-select | JDP Ecosystem Package Core Tools | [Github](https://github.com/fusionlabcn/jdp-select) | ok |  :seedling: |
-| Ambari | JDP Stack in Ambari | [Github](https://github.com/fusionlabcn/ambari) | ok |  :seedling: |
+| jdp-package | JDP Ecosystem Package Management Tools | [Github](https://github.com/fuslab/jdp-package) | ok |  :seedling: |
+| jdp-select | JDP Ecosystem Package Core Tools | [Github](https://github.com/fuslab/jdp-select) | ok |  :seedling: |
+| Ambari | JDP Stack in Ambari | [Github](https://github.com/fuslab/ambari) | ok |  :seedling: |
 
 注：jdp-ambari-mpack 和 jdp-ambari 项目在`3.1.0.0`中会融合，未来只会存在一个项目。
 
+## JDP Development plan for 3.1.1.0 
+
+* R & D Plan
+
+** Add Hadoop 3.1.1
+** Add Spark 2.4.0
+** Add Hbase 2.0.2
+** Add Livy 0.5.0
+** Add Flink 1.7.0
+
+* Test Plan
+
+** Add Hadoop 3.1.1 (done)
+** Add Spark 2.4.0  (done)
+** Add Hbase 2.0.2 (done)
+** Add Livy 0.5.0 (done)
+** Add Flink 1.7.0 (Not tested)
+
+* 项目列表
+
+| Name | explain | address |  status | remark | 
+| :--- | :----: | :----: | :----: | :----: |
+| jdp-package | JDP Ecosystem Package Management Tools | [Github](https://github.com/fuslab/jdp-package) | release |  :seedling: |
+| jdp-select | JDP Ecosystem Package Core Tools | [Github](https://github.com/fuslab/jdp-select) | ok |  :seedling: |
+| Ambari | JDP Stack in Ambari | [Github](https://github.com/fuslab/ambari) | release |  :seedling: |
+| FusionDB | JDP Core FusionDB | [Github](https://github.com/FusionDB/fusiondb) | incubator |  :seedling: |
+
+Note: JDP 3.1.1.0 version, hatching core components ` FusionDB ` and ` CoreAI `，details access [fusionlab] (http://www.fusionlab.cn)
+
 * 开发约束
 
-项目列表，涉及的相关项目版本，全都统一为`branch-3.1.0.0`，jdp-package和labs-docs除外，拥有相关prefix，suffix需保持一致。
+项目列表，涉及的相关项目版本，全都统一为`branch-3.1.0.0`，jdp-package除外，拥有相关prefix，suffix需保持一致。
 比如：jdp-3.1.0.0需具备版本一致性。
 
 需要开启统称为`branch-3.1.0.0`分支以此为基础进行开发。最终release版本之前，可通`branch-3.1.0.0`分支发布带rc后缀的版本，比如rc1,rc2等。
