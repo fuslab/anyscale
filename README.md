@@ -75,23 +75,23 @@
 
 ## JDP Development plan for 3.1.1.0 
 
-* R & D Plan
+### R & D Plan
 
-** Add Hadoop 3.1.1
-** Add Spark 2.4.0
-** Add Hbase 2.0.2
-** Add Livy 0.5.0
-** Add Flink 1.7.0
+* Add Hadoop 3.1.1
+* Add Spark 2.4.0
+* Add Hbase 2.0.2
+* Add Livy 0.5.0
+* Add Flink 1.7.0
 
-* Test Plan
+### Test Plan
 
-** Add Hadoop 3.1.1 (done)
-** Add Spark 2.4.0  (done)
-** Add Hbase 2.0.2 (done)
-** Add Livy 0.5.0 (done)
-** Add Flink 1.7.0 (Not tested)
+* Add Hadoop 3.1.1 (done)
+* Add Spark 2.4.0  (done)
+* Add Hbase 2.0.2 (done)
+* Add Livy 0.5.0 (done)
+* Add Flink 1.7.0 (Not tested)
 
-* 项目列表
+### Project List
 
 | Name | explain | address |  status | remark | 
 | :--- | :----: | :----: | :----: | :----: |
@@ -102,7 +102,7 @@
 
 Note: JDP 3.1.1.0 version, hatching core components ` FusionDB ` and ` CoreAI `，details access [fusionlab] (http://www.fusionlab.cn)
 
-* 开发约束
+## 开发约束
 
 项目列表，涉及的相关项目版本，全都统一为`branch-3.1.0.0`，jdp-package除外，拥有相关prefix，suffix需保持一致。
 比如：jdp-3.1.0.0需具备版本一致性。
