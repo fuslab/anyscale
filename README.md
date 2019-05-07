@@ -33,19 +33,17 @@
 
 ## JDP Development plan for 3.0.0.0 
 
-* 研发计划
+* R & D Plan
 
 ![](https://github.com/fusionlabcn/jdp/raw/master/img/jdp-3-0-0-0-develop-plan.png)
 
-* 测试计划
+* Test Plan
 
 ![](https://github.com/fusionlabcn/jdp/raw/master/img/jdp-3-0-0-0-testing.png)
 
-地址：http://www.fusionlab.cn
+* Project List
 
-* 项目列表
-
-| 名称 | 说明 | 地址 |  状态 | 备注 | 
+| Name | explain | address |  status | remark | 
 | :--- | :----: | :----: | :----: | :----: |
 | jdp-package | JDP Ecosystem Package Management Tools | [Github](https://github.com/fuslab/jdp-package) | ok |  :seedling: |
 | jdp | JDP for roadmap | [Github](https://github.com/fuslab/jdp) | ok |  :seedling: |
@@ -55,17 +53,17 @@
 
 ## JDP Development plan for 3.1.0.0 
 
-* 研发计划
+* R & D Plan
 
 ![](https://github.com/fusionlabcn/jdp/raw/master/img/jdp-3-1-0-0-develop-plan.png)
 
-* 测试计划
+* Test Plan
 
 ![](https://github.com/fusionlabcn/jdp/raw/master/img/jdp-3-1-0-0-testing.png)
 
-* 项目列表
+* Project List
 
-| 名称 | 说明 | 地址 |  状态 | 备注 | 
+| Name | explain | address |  status | remark | 
 | :--- | :----: | :----: | :----: | :----: |
 | jdp-package | JDP Ecosystem Package Management Tools | [Github](https://github.com/fuslab/jdp-package) | ok |  :seedling: |
 | jdp-select | JDP Ecosystem Package Core Tools | [Github](https://github.com/fuslab/jdp-select) | ok |  :seedling: |
@@ -100,9 +98,36 @@
 | Ambari | JDP Stack in Ambari | [Github](https://github.com/fuslab/ambari) | release |  :seedling: |
 | FusionDB | JDP Core FusionDB | [Github](https://github.com/FusionDB/fusiondb) | incubator |  :seedling: |
 
-Note: JDP 3.1.1.0 version, hatching core components ` FusionDB ` and ` CoreAI `，details access [fusionlab](http://www.fusionlab.cn)
+Note: JDP 3.1.1.0 version, incubator core components ` FusionDB ` and ` CoreAI `，details access [fusionlab](http://www.fusionlab.cn)
 
-## 开发约束
+## JDP Development plan for 3.2.0.0 
+
+### R & D Plan
+
+* Add FusionDB 0.1.0
+* Add CoreAI 0.1.0
+
+### Test Plan
+
+* Add FusionDB 0.1.0
+* Add CoreAI 0.1.0
+
+### Project List
+
+| Name | explain | address |  status | remark | 
+| :--- | :----: | :----: | :----: | :----: |
+| jdp-package | JDP Ecosystem Package Management Tools | [Github](https://github.com/fuslab/jdp-package) | release |  :seedling: |
+| jdp-select | JDP Ecosystem Package Core Tools | [Github](https://github.com/fuslab/jdp-select) | release |  :seedling: |
+| Ambari | JDP Stack in Ambari | [Github](https://github.com/fuslab/ambari) | release |  :seedling: |
+| FusionDB | JDP Core FusionDB | [Github](https://github.com/FusionDB/fusiondb) | incubator |  :seedling: |
+
+Note: JDP 3.2.0.0 version, release core components ` FusionDB ` and ` CoreAI `，details access [fusionlab](http://www.fusionlab.cn)
+
+## Reporting issues
+
+We use [GitHub Issues](https://github.com/fuslab/jdp/issues) to track community reported issues. You can also contact the community for getting answers.
+
+## Development
 
 项目列表，涉及的相关项目版本，全都统一为`branch-3.1.0.0`，jdp-package除外，拥有相关prefix，suffix需保持一致。
 比如：jdp-3.1.0.0需具备版本一致性。
