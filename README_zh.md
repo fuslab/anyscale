@@ -1,35 +1,35 @@
 # JDataFlow Platfrom
 
-JDP is an enterprise ***Core Data & Core AI*** stream analysis platfrom, the full name of JDP is `JDataFlow Platfrom`，Analyze flow data . JDP is not a framework, but a complete solution, mainly includes：
+**JDP是企业级Core Data & Core AI 流分析平台， JDP全称`JDataFlow Platfrom`**，分析流动中的数据。JDP并不是一个框架，而是一套完整的解决方案，主要包括：
 
-- Basic concept: `JDP` based on Streaming Analytics Visualization architecture
-- Development tools: `Ambari`, based on the Ambari source extension, JDP is better integrated with Ambari.
-- The basic structure: `JDP` core is based on high-performance distributed relational database construction, supporting triceratops of data-second responsiveness.
-- Core features: `JDP` Core Data & Core AI:
-    + Core Data provides highly visual stream data analysis.
-    + Core AI provides AI capabilities on distributed systems.
+- 基础理念：`JDP` 基于Streaming Analytics Visualization架构。
+- 开发工具：`Ambari`，基于Ambari源码扩展，JDP更好的融合Ambari。
+- 基础构成：`JDP`核心基于高性能的分布式关系型数据库构建，支撑万亿数据秒级响应能力。
+- 核心功能：`JDP`核心Core Data & Core AI：
+    + Core Data 提供高度可视化的流数据分析，Streaming Analytics to Visualization。
+    + Core AI 提供分布式系统上的AI能力，Smart Application。
 
-- Basic operation and maintenance: out of the box, visual operation and maintenance management system `Ambari Manager`:
-    + Provide core service management and configuration center functions to ensure the stability and reliability of the cluster.
-    + Manage large-scale distributed systems simply and efficiently, just need to pay attention on business applications.
+- 基础运维：开箱即用，可视化运维管理系统`Ambari Manager`：
+    + 提供核心的服务管理与配置中心功能，保障集群的稳定可靠。
+    + 简单高效的管理大规模分布式系统，仅需专注业务应用。
 
 ![JDataFlow](http://www.fusionlab.cn/zh-cn/docs/intro/img/JDataFlow-Pratfrom.png)
 
-## Design Principles
+## 设计原则
 
-- Internet of Things(IoT), connects everything’s  era.Data is processed in the flow
-- JDP flow analysis platform, simple and high performance data analysis, Core Data follows the principle of distributed system design
-- Follow the existing service system of company.  seamlessly blend into existing enterprise data center systems that could directly interact with data.
+- Internet of Things (IoT)，连接一切的时代，数据在流动中被处理。
+- JDP流分析平台，简单高性能的数据分析，Core Data遵循分布式系统设计原则。
+- 遵循企业现有服务体系。无缝融入现有企业数据中心系统，可直接交互数据。
 
 ## 特性
 
-- One-stop solution: Out of the box & simple & easy to use.
-- High performance: teraflops of data-second response, providing PB-level data storage.
-- Scalability :  Large-scale deployment, up to several hundred clusters.
-- Visualization: Visual data collection, data storage, data analysis, data reporting.
-- Reliability: The cluster provides a copy-tolerant mechanism, so hardware failures do not cause data loss.
-- Simple operation and maintenance: log, monitoring, alarm, configuration, and service stack management.
-- Easy to use: Provides standard SQL, drag and drop data analysis.
+- One-stop solution：开箱即用 & 简单 & 易用。
+- 高性能：万亿数据秒级响应，提供PB级数据存储。
+- 扩展性：规模化部署，可达几百台集群规模。
+- 可视化：可视化的数据收集、数据存储、数据分析、数据报表。
+- 可靠性：集群提供副本容错机制，硬件故障不会造成数据丢失。
+- 简单运维：日志、监控、报警、配置、服务一栈式管理。
+- 简单易用：提供标准SQL，拖拽式数据分析。
 
 ## JDP Development plan for 3.0.0.0 
 
@@ -69,7 +69,7 @@ JDP is an enterprise ***Core Data & Core AI*** stream analysis platfrom, the ful
 | jdp-select | JDP Ecosystem Package Core Tools | [Github](https://github.com/fuslab/jdp-select) | ok |  :seedling: |
 | Ambari | JDP Stack in Ambari | [Github](https://github.com/fuslab/ambari) | ok |  :seedling: |
 
-Note: The jdp-ambari-mpack and jdp-ambari projects will be merged in `3.1.0.0`, and only one project will exist in the future.
+注：jdp-ambari-mpack 和 jdp-ambari 项目在`3.1.0.0`中会融合，未来只会存在一个项目。
 
 ## JDP Development plan for 3.1.1.0 
 
