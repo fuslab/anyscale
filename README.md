@@ -1,6 +1,6 @@
-# Anyscale stack
+# Anyscale Stack
 
-Anyscale is an enterprise ***Core Data & Core AI*** stream analysis platfrom, the full name of Anyscale is `JDataFlow Platfrom`，Analyze flow data . Anyscale is not a framework, but a complete solution, mainly includes：
+Anyscale is an enterprise ***Core Data & Core AI*** stream analysis platfrom, the full name of Anyscale is `Anyscale Stack`，Analyze flow data . Anyscale is not a framework, but a complete solution, mainly includes：
 
 - Basic concept: `Anyscale` based on Streaming Analytics Visualization architecture
 - Development tools: `Ambari`, based on the Ambari source extension, Anyscale is better integrated with Ambari.
@@ -106,6 +106,41 @@ Note: Anyscale 3.1.1.0 version, incubator core components ` FusionDB ` and ` Cor
 | FusionDB | Anyscale Core FusionDB | [Github](https://github.com/FusionDB/fusiondb) | incubator |  :seedling: |
 
 Note: Anyscale 3.2.0.0 version, release core components ` FusionDB ` and ` CoreAI `，details access [fusionlab](http://www.fusionlab.cn)
+
+## Anysacle Development plan for 1.0.0.0 (restart: changed brand to Anyscale stack)
+
+### Plan
+
+* Ambari-plus 2.7.4.0
+* FusionDB 1.0.0.0
+* Hadoop 3.1.1
+* Zookeeper 3.4.6
+* Metastore 3.1.0
+* Spark 3.1.0
+* Hbase 2.1.6
+* CoreAI 0.1.0
+
+### Test Plan
+
+* Ambari-plus 2.7.4.0 (done)
+* FusionDB 1.0.0.0
+* Hadoop 3.1.1  (done)
+* Zookeeper 3.4.6 (done)
+* Metastore 3.1.0
+* Spark 2.4.0 (done)
+* Hbase 2.1.6 (done)
+* CoreAI 0.1.0 
+
+### Project List
+
+| Name | explain | address |  status | remark | 
+| :--- | :----: | :----: | :----: | :----: |
+| jdp-package | Anysacle Ecosystem Package Management Tools | [Github](https://github.com/fuslab/anyscale-package) | release |  :seedling: |
+| jdp-select | Anysacle Ecosystem Package Core Tools | [Github](https://github.com/fuslab/anyscale-select) | release |  :seedling: |
+| Ambari-plus | Anysacle Stack in Ambari | [Github](https://github.com/fuslab/ambari-plus) | release |  :seedling: |
+| FusionDB | Anysacle Core FusionDB | [Github](https://github.com/FusionDB/fusiondb) | incubator |  :seedling: |
+
+Note: Anysacle 1.0.0.0 version, release core components ` FusionDB ` and ` CoreAI `，details access [fusionlab](http://www.fusionlab.cn)
 
 ## Reporting issues
 
