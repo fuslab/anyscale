@@ -33,14 +33,6 @@ Anyscale is an enterprise ***Core Data & Core AI*** stream analysis platfrom, th
 
 ## Anyscale Development plan for 3.0.0.0 
 
-* R & D Plan
-
-![](https://github.com/fuslab/Anyscale/raw/master/img/JDP-3-0-0-0-develop-plan.png)
-
-* Test Plan
-
-![](https://github.com/fuslab/Anyscale/raw/master/img/JDP-3-0-0-0-testing.png)
-
 * Project List
 
 | Name | explain | address |  status | remark | 
@@ -52,14 +44,6 @@ Anyscale is an enterprise ***Core Data & Core AI*** stream analysis platfrom, th
 | Ambari | Anyscale Stack in Ambari | [Github](https://github.com/fuslab/ambari) | ok |  :seedling: |
 
 ## Anyscale Development plan for 3.1.0.0 
-
-* R & D Plan
-
-![](https://github.com/fuslab/Anyscale/raw/master/img/JDP-3-1-0-0-develop-plan.png)
-
-* Test Plan
-
-![](https://github.com/fuslab/Anyscale/raw/master/img/JDP-3-1-0-0-testing.png)
 
 * Project List
 
