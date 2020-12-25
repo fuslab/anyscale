@@ -1,6 +1,6 @@
 # Anysacle Stack
 
-**Anysacle是企业级Core Data & Core AI 统一分析平台， Anysacle全称`JDataFlow Platfrom`**，分析流动中的数据。Anyscale 并不是一个框架，而是一套完整的解决方案，主要包括：
+**Anysacle是企业级Core Data & Core AI 统一分析平台， Anysacle全称`Anyscale Stack`**，分析流动中的数据。Anyscale 并不是一个框架，而是一套完整的解决方案，主要包括：
 
 - 基础理念：`Anysacle` 基于Streaming Analytics Visualization架构。
 - 开发工具：`Ambari`，基于Ambari源码扩展，Anysacle 更好的融合Ambari。
