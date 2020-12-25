@@ -1,11 +1,11 @@
-# JDataFlow Platfrom
+# Anyscale stack
 
-JDP is an enterprise ***Core Data & Core AI*** stream analysis platfrom, the full name of JDP is `JDataFlow Platfrom`，Analyze flow data . JDP is not a framework, but a complete solution, mainly includes：
+Anyscale is an enterprise ***Core Data & Core AI*** stream analysis platfrom, the full name of Anyscale is `JDataFlow Platfrom`，Analyze flow data . Anyscale is not a framework, but a complete solution, mainly includes：
 
-- Basic concept: `JDP` based on Streaming Analytics Visualization architecture
-- Development tools: `Ambari`, based on the Ambari source extension, JDP is better integrated with Ambari.
-- The basic structure: `JDP` core is based on high-performance distributed relational database construction, supporting triceratops of data-second responsiveness.
-- Core features: `JDP` Core Data & Core AI:
+- Basic concept: `Anyscale` based on Streaming Analytics Visualization architecture
+- Development tools: `Ambari`, based on the Ambari source extension, Anyscale is better integrated with Ambari.
+- The basic structure: `Anyscale` core is based on high-performance distributed relational database construction, supporting triceratops of data-second responsiveness.
+- Core features: `Anyscale` Core Data & Core AI:
     + Core Data provides highly visual stream data analysis.
     + Core AI provides AI capabilities on distributed systems.
 
@@ -13,15 +13,15 @@ JDP is an enterprise ***Core Data & Core AI*** stream analysis platfrom, the ful
     + Provide core service management and configuration center functions to ensure the stability and reliability of the cluster.
     + Manage large-scale distributed systems simply and efficiently, just need to pay attention on business applications.
 
-![JDataFlow](http://www.fusionlab.cn/zh-cn/docs/intro/img/JDataFlow-Pratfrom.png)
+![Anyscale](http://www.fusionlab.cn/zh-cn/docs/intro/img/JDataFlow-Pratfrom.png)
 
 ## Design Principles
 
 - Internet of Things(IoT), connects everything’s  era.Data is processed in the flow
-- JDP flow analysis platform, simple and high performance data analysis, Core Data follows the principle of distributed system design
+- Anyscale flow analysis platform, simple and high performance data analysis, Core Data follows the principle of distributed system design
 - Follow the existing service system of company.  seamlessly blend into existing enterprise data center systems that could directly interact with data.
 
-## 特性
+## features
 
 - One-stop solution: Out of the box & simple & easy to use.
 - High performance: teraflops of data-second response, providing PB-level data storage.
@@ -31,47 +31,47 @@ JDP is an enterprise ***Core Data & Core AI*** stream analysis platfrom, the ful
 - Simple operation and maintenance: log, monitoring, alarm, configuration, and service stack management.
 - Easy to use: Provides standard SQL, drag and drop data analysis.
 
-## JDP Development plan for 3.0.0.0 
+## Anyscale Development plan for 3.0.0.0 
 
 * R & D Plan
 
-![](https://github.com/fusionlabcn/jdp/raw/master/img/jdp-3-0-0-0-develop-plan.png)
+![](https://github.com/fuslab/Anyscale/raw/master/img/JDP-3-0-0-0-develop-plan.png)
 
 * Test Plan
 
-![](https://github.com/fusionlabcn/jdp/raw/master/img/jdp-3-0-0-0-testing.png)
+![](https://github.com/fuslab/Anyscale/raw/master/img/JDP-3-0-0-0-testing.png)
 
 * Project List
 
 | Name | explain | address |  status | remark | 
 | :--- | :----: | :----: | :----: | :----: |
-| jdp-package | JDP Ecosystem Package Management Tools | [Github](https://github.com/fuslab/jdp-package) | ok |  :seedling: |
-| jdp | JDP for roadmap | [Github](https://github.com/fuslab/jdp) | ok |  :seedling: |
-| jdp-select | JDP Ecosystem Package Core Tools | [Github](https://github.com/fuslab/jdp-select) | ok |  :seedling: |
-| jdp-ambari-mpack | JDP Ecosystem Management Platform | [Github](https://github.com/fuslab/jdp-ambari-mpack) | ok |  :seedling: |
-| Ambari | JDP Stack in Ambari | [Github](https://github.com/fuslab/ambari) | ok |  :seedling: |
+| Anyscale-package | Anyscale Ecosystem Package Management Tools | [Github](https://github.com/fuslab/Anyscale-package) | ok |  :seedling: |
+| Anyscale | Anyscale for roadmap | [Github](https://github.com/fuslab/Anyscale) | ok |  :seedling: |
+| Anyscale-select | Anyscale Ecosystem Package Core Tools | [Github](https://github.com/fuslab/Anyscale-select) | ok |  :seedling: |
+| Anyscale-ambari-mpack | Anyscale Ecosystem Management Platform | [Github](https://github.com/fuslab/Anyscale-ambari-mpack) | ok |  :seedling: |
+| Ambari | Anyscale Stack in Ambari | [Github](https://github.com/fuslab/ambari) | ok |  :seedling: |
 
-## JDP Development plan for 3.1.0.0 
+## Anyscale Development plan for 3.1.0.0 
 
 * R & D Plan
 
-![](https://github.com/fusionlabcn/jdp/raw/master/img/jdp-3-1-0-0-develop-plan.png)
+![](https://github.com/fuslab/Anyscale/raw/master/img/JDP-3-1-0-0-develop-plan.png)
 
 * Test Plan
 
-![](https://github.com/fusionlabcn/jdp/raw/master/img/jdp-3-1-0-0-testing.png)
+![](https://github.com/fuslab/Anyscale/raw/master/img/JDP-3-1-0-0-testing.png)
 
 * Project List
 
 | Name | explain | address |  status | remark | 
 | :--- | :----: | :----: | :----: | :----: |
-| jdp-package | JDP Ecosystem Package Management Tools | [Github](https://github.com/fuslab/jdp-package) | ok |  :seedling: |
-| jdp-select | JDP Ecosystem Package Core Tools | [Github](https://github.com/fuslab/jdp-select) | ok |  :seedling: |
-| Ambari | JDP Stack in Ambari | [Github](https://github.com/fuslab/ambari) | ok |  :seedling: |
+| anyscale-package | Anyscale Ecosystem Package Management Tools | [Github](https://github.com/fuslab/anyscale-package) | ok |  :seedling: |
+| anyscale-select | Anyscale Ecosystem Package Core Tools | [Github](https://github.com/fuslab/anyscale-select) | ok |  :seedling: |
+| ambari-plus | Anyscale Stack in Ambari | [Github](https://github.com/fuslab/ambari-plus) | ok |  :seedling: |
 
-Note: The jdp-ambari-mpack and jdp-ambari projects will be merged in `3.1.0.0`, and only one project will exist in the future.
+Note: The Anyscale-ambari-mpack and Anyscale-ambari projects will be merged in `3.1.0.0`, and only one project will exist in the future.
 
-## JDP Development plan for 3.1.1.0 
+## Anyscale Development plan for 3.1.1.0 
 
 ### R & D Plan
 
@@ -93,14 +93,14 @@ Note: The jdp-ambari-mpack and jdp-ambari projects will be merged in `3.1.0.0`, 
 
 | Name | explain | address |  status | remark | 
 | :--- | :----: | :----: | :----: | :----: |
-| jdp-package | JDP Ecosystem Package Management Tools | [Github](https://github.com/fuslab/jdp-package) | release |  :seedling: |
-| jdp-select | JDP Ecosystem Package Core Tools | [Github](https://github.com/fuslab/jdp-select) | release |  :seedling: |
-| Ambari | JDP Stack in Ambari | [Github](https://github.com/fuslab/ambari) | release |  :seedling: |
-| FusionDB | JDP Core FusionDB | [Github](https://github.com/FusionDB/fusiondb) | incubator |  :seedling: |
+| Anyscale-package | Anyscale Ecosystem Package Management Tools | [Github](https://github.com/fuslab/Anyscale-package) | release |  :seedling: |
+| Anyscale-select | Anyscale Ecosystem Package Core Tools | [Github](https://github.com/fuslab/Anyscale-select) | release |  :seedling: |
+| Ambari | Anyscale Stack in Ambari | [Github](https://github.com/fuslab/ambari) | release |  :seedling: |
+| FusionDB | Anyscale Core FusionDB | [Github](https://github.com/FusionDB/fusiondb) | incubator |  :seedling: |
 
-Note: JDP 3.1.1.0 version, incubator core components ` FusionDB ` and ` CoreAI `，details access [fusionlab](http://www.fusionlab.cn)
+Note: Anyscale 3.1.1.0 version, incubator core components ` FusionDB ` and ` CoreAI `，details access [fusionlab](http://www.fusionlab.cn)
 
-## JDP Development plan for 3.2.0.0 
+## Anyscale Development plan for 3.2.0.0 
 
 ### R & D Plan
 
@@ -116,21 +116,21 @@ Note: JDP 3.1.1.0 version, incubator core components ` FusionDB ` and ` CoreAI `
 
 | Name | explain | address |  status | remark | 
 | :--- | :----: | :----: | :----: | :----: |
-| jdp-package | JDP Ecosystem Package Management Tools | [Github](https://github.com/fuslab/jdp-package) | release |  :seedling: |
-| jdp-select | JDP Ecosystem Package Core Tools | [Github](https://github.com/fuslab/jdp-select) | release |  :seedling: |
-| Ambari | JDP Stack in Ambari | [Github](https://github.com/fuslab/ambari) | release |  :seedling: |
-| FusionDB | JDP Core FusionDB | [Github](https://github.com/FusionDB/fusiondb) | incubator |  :seedling: |
+| Anyscale-package | Anyscale Ecosystem Package Management Tools | [Github](https://github.com/fuslab/Anyscale-package) | release |  :seedling: |
+| Anyscale-select | Anyscale Ecosystem Package Core Tools | [Github](https://github.com/fuslab/Anyscale-select) | release |  :seedling: |
+| Ambari | Anyscale Stack in Ambari | [Github](https://github.com/fuslab/ambari) | release |  :seedling: |
+| FusionDB | Anyscale Core FusionDB | [Github](https://github.com/FusionDB/fusiondb) | incubator |  :seedling: |
 
-Note: JDP 3.2.0.0 version, release core components ` FusionDB ` and ` CoreAI `，details access [fusionlab](http://www.fusionlab.cn)
+Note: Anyscale 3.2.0.0 version, release core components ` FusionDB ` and ` CoreAI `，details access [fusionlab](http://www.fusionlab.cn)
 
 ## Reporting issues
 
-We use [GitHub Issues](https://github.com/fuslab/jdp/issues) to track community reported issues. You can also contact the community for getting answers.
+We use [GitHub Issues](https://github.com/fuslab/Anyscale/issues) to track community reported issues. You can also contact the community for getting answers.
 
 ## Development
 
-项目列表，涉及的相关项目版本，全都统一为`branch-3.1.0.0`，jdp-package除外，拥有相关prefix，suffix需保持一致。
-比如：jdp-3.1.0.0需具备版本一致性。
+项目列表，涉及的相关项目版本，全都统一为`branch-3.1.0.0`，Anyscale-package除外，拥有相关prefix，suffix需保持一致。
+比如：Anyscale-3.1.0.0需具备版本一致性。
 
 需要开启统称为`branch-3.1.0.0`分支以此为基础进行开发。最终release版本之前，可通`branch-3.1.0.0`分支发布带rc后缀的版本，比如rc1,rc2等。
 
